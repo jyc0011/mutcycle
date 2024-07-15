@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="/css/global.css" rel="stylesheet">
+</head>
+<body>
+<div class="header" th:fragment="bodyHeader" style="width: 1200px; margin: 0 auto;">
+    <a href="/" class="logo-link"><h3 class="text-muted text-center logo">PCS</h3></a>
+    <ul class="nav nav-pills authentication-links">
+        <li><a href="/log">LOGIN</a></li>
+        <li><a href="/register">REGISTER</a></li>
+        <li><a href="/logout">LOGOUT</a></li>
+    </ul>
+    <ul class="nav nav-pills general-menu">
+        <li><a href="/about">About PCS</a></li>
+        <li><a href="/member">PCS Member</a></li>
+        <li><a href="/contract">Contract</a></li>
+        <li><a href="/check">Check Up</a></li>
+    </ul>
+</div>
+</body>
+</html>
