@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MainController.java" afterDir="false" />
+    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : initial setup">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +26,42 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cycle" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jyc0011"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ef43a1c7-dfb4-4a23-985e-05ff30b01d20" />
+        <option name="url" value="https://github.com/jyc0011/mutcycle.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +70,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2jH3kPr0nOaRhIHtXztzZ5pW4fY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,28 +81,45 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.cycle 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CycleApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/project/mutcycle/cycle/src/main/java/com/mut/cycle/util",
+    "last_opened_file_path": "E:/project/mutcycle/cycle/src/main/resources",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\mutcycle\cycle\src\main\resources" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle\util" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\mutcycle\cycle" />
       <recent name="E:\project\mutcycle" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mut.cycle.domain.enums" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,11 +148,24 @@
       <updated>1721030317908</updated>
       <workItem from="1721030319281" duration="34000" />
       <workItem from="1721030371388" duration="168000" />
-      <workItem from="1721030604830" duration="352000" />
+      <workItem from="1721030604830" duration="2926000" />
     </task>
+    <task id="LOCAL-00001" summary="add : initial setup">
+      <option name="closed" value="true" />
+      <created>1721031257516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031257516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add : initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : initial setup" />
   </component>
 </project>
