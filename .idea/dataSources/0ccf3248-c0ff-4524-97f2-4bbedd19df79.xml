@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="mut_db@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
-    <root id="1"/>
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>mut_db|schema||mut_user|localhost|ALTER|G
+mut_db|schema||mut_user|localhost|ALTER ROUTINE|G
+mut_db|schema||mut_user|localhost|CREATE|G
+mut_db|schema||mut_user|localhost|CREATE ROUTINE|G
+mut_db|schema||mut_user|localhost|CREATE TEMPORARY TABLES|G
+mut_db|schema||mut_user|localhost|CREATE VIEW|G
+mut_db|schema||mut_user|localhost|DELETE|G
+mut_db|schema||mut_user|localhost|DROP|G
+mut_db|schema||mut_user|localhost|EVENT|G
+mut_db|schema||mut_user|localhost|EXECUTE|G
+mut_db|schema||mut_user|localhost|INDEX|G
+mut_db|schema||mut_user|localhost|INSERT|G
+mut_db|schema||mut_user|localhost|LOCK TABLES|G
+mut_db|schema||mut_user|localhost|REFERENCES|G
+mut_db|schema||mut_user|localhost|SELECT|G
+mut_db|schema||mut_user|localhost|SHOW VIEW|G
+mut_db|schema||mut_user|localhost|TRIGGER|G
+mut_db|schema||mut_user|localhost|UPDATE|G</Grants>
+      <ServerVersion>8.0.35</ServerVersion>
+    </root>
     <collation id="2" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
       <DefaultForCharset>1</DefaultForCharset>

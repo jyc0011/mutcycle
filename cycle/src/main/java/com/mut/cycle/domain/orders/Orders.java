@@ -1,6 +1,7 @@
 package com.mut.cycle.domain.orders;
 
 import com.mut.cycle.domain.enums.OrdersConditions;
+import com.mut.cycle.domain.user.Address;
 import com.mut.cycle.domain.user.User;
 import com.mut.cycle.domain.goods.Goods;
 import jakarta.persistence.*;
@@ -29,6 +30,9 @@ public class Orders {
 
     private Double price;
     private LocalDateTime date;
+
+    @Embedded
+    private Address address;
 
     @Enumerated(EnumType.STRING)
     private OrdersConditions conditions;
