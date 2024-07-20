@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="edit : gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ccf3248-c0ff-4524-97f2-4bbedd19df79.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0ccf3248-c0ff-4524-97f2-4bbedd19df79.xml" afterDir="false" />
+    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : empty controller&amp;service&amp;html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/domain/orders/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/domain/orders/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/domain/orders/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/domain/orders/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
       <list>
         <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -119,6 +120,7 @@
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\mutcycle\cycle\src\main\resources\templates" />
       <recent name="E:\project\mutcycle" />
       <recent name="E:\project\mutcycle\cycle" />
     </key>
@@ -157,7 +159,7 @@
       <workItem from="1721034003185" duration="52000" />
       <workItem from="1721097202667" duration="579000" />
       <workItem from="1721125010410" duration="4205000" />
-      <workItem from="1721458468644" duration="374000" />
+      <workItem from="1721458468644" duration="2408000" />
     </task>
     <task id="LOCAL-00001" summary="add : initial setup">
       <option name="closed" value="true" />
@@ -183,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721097631596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add : empty controller&amp;service&amp;html">
+      <option name="closed" value="true" />
+      <created>1721458882199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721458882199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +203,7 @@
     <MESSAGE value="add : initial setup" />
     <MESSAGE value="add : db setup" />
     <MESSAGE value="edit : gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit : gitignore" />
+    <MESSAGE value="add : empty controller&amp;service&amp;html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : empty controller&amp;service&amp;html" />
   </component>
 </project>
