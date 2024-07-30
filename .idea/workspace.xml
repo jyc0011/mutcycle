@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : empty controller&amp;service&amp;html">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ccf3248-c0ff-4524-97f2-4bbedd19df79.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +51,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -104,6 +113,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -120,6 +130,7 @@
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\mutcycle\cycle\src\main\resources\static\img" />
       <recent name="E:\project\mutcycle\cycle\src\main\resources\templates" />
       <recent name="E:\project\mutcycle" />
       <recent name="E:\project\mutcycle\cycle" />
@@ -130,7 +141,9 @@
   </component>
   <component name="RunManager">
     <configuration name="CycleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="cycle.main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="com.mut.cycle.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mut.cycle.CycleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
