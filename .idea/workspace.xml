@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16_오후_4_42,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : cart">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16_오후_4_42,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/AdminController.java" afterDir="false" />
@@ -64,14 +66,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -126,24 +131,48 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.cycle 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CycleApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/project/mutcycle/cycle/src/main/java/com/mut/cycle/service",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\mutcycle\cycle\src\main\resources\templates\mypage" />
-      <recent name="E:\project\mutcycle\cycle\src\main\resources\templates\usedgoods" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle\service" />
       <recent name="E:\project\mutcycle\cycle\src\main\resources" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle\util" />
+      <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\mutcycle\cycle\src\main\resources\static" />
-      <recent name="E:\project\mutcycle\cycle\src\main\resources\static\img" />
       <recent name="E:\project\mutcycle\cycle\src\main\resources\templates" />
       <recent name="E:\project\mutcycle" />
       <recent name="E:\project\mutcycle\cycle" />
@@ -183,21 +212,7 @@
       <workItem from="1721034003185" duration="52000" />
       <workItem from="1721097202667" duration="579000" />
       <workItem from="1721125010410" duration="4205000" />
-      <workItem from="1721458468644" duration="3474000" />
-      <workItem from="1721507212013" duration="42000" />
-      <workItem from="1721508085301" duration="95000" />
-      <workItem from="1721528010314" duration="145000" />
-      <workItem from="1721528684543" duration="163000" />
-      <workItem from="1721606800326" duration="763000" />
-      <workItem from="1721630299400" duration="1538000" />
-      <workItem from="1721700736225" duration="4962000" />
-      <workItem from="1721719401484" duration="1152000" />
-      <workItem from="1722234652733" duration="24000" />
-      <workItem from="1722296598964" duration="94000" />
-      <workItem from="1722311766495" duration="7000" />
-      <workItem from="1722312334990" duration="30000" />
-      <workItem from="1722325808445" duration="529000" />
-      <workItem from="1722328507047" duration="7000" />
+      <workItem from="1721458468644" duration="2408000" />
     </task>
     <task id="LOCAL-00001" summary="add : initial setup">
       <option name="closed" value="true" />
@@ -231,23 +246,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721458882199</updated>
     </task>
-    <task id="LOCAL-00005" summary="add : controller mapping and empty html">
-      <option name="closed" value="true" />
-      <created>1721461244533</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1721461244533</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add : controller mapping and empty html">
-      <option name="closed" value="true" />
-      <created>1721528146643</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1721528146645</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +257,6 @@
     <MESSAGE value="add : db setup" />
     <MESSAGE value="edit : gitignore" />
     <MESSAGE value="add : empty controller&amp;service&amp;html" />
-    <MESSAGE value="add : controller mapping and empty html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : controller mapping and empty html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : empty controller&amp;service&amp;html" />
   </component>
 </project>
