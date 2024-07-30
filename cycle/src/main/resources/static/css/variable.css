@@ -1,0 +1,22 @@
+:root{
+    /*color*/
+    --main-green:#BEDF1E;
+    --light-green:#ecf6bc;
+    --heavy-green:#4d5902;
+    --black:#000000;
+    --white:#ffffff;
+    --gray-heavy:#505050;
+    --gray-light:#dbdbdb;
+
+    /*font size*/
+    --font-size-12:12pt;
+    --font-size-14:14pt;
+    --font-size-18:18pt;
+    --font-size-20:20pt;
+    --font-size-22:22pt;
+    --font-size-32:32pt;
+
+    /*border radius*/
+    --border-radius-8:8px;
+
+}

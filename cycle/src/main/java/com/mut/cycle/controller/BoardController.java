@@ -1,12 +1,17 @@
 package com.mut.cycle.controller;
 
+import com.mut.cycle.service.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class BoardController {
+    @Autowired
+    BoardService boardService;
+    @Autowired
+    CommentService commentService;
+
     @GetMapping("/board/{categoryId}/{sortId}")
     public String board(@PathVariable("categoryId") Long categoryId, @PathVariable("sortId") Long sortId) {
         return "board/board";

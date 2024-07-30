@@ -1,0 +1,16 @@
+
+.logo-link{
+    position: absolute;
+    width: 1200px;
+    height: 147px;
+    left: calc(50% - 1200px/2);
+    top: 36px;
+}
+
+.logo{
+    position: absolute;
+    width: 305.68px;
+    height: 140px;
+    left: calc(50% - 305.68px/2 - 0.16px);
+    top: calc(50% - 140px/2 + 0.5px);
+}

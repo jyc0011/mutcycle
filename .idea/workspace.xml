@@ -4,14 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : empty controller&amp;service&amp;html">
+    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : controller mapping and empty html">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16_오후_4_42,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/MypageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/UsedGoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/order/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/MypageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/MypageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/UsedGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/service/UsedGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/static/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/css/variable.css" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/static/css/variable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,46 +101,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.cycle 빌드.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CycleApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/project/mutcycle/cycle/src/main/java/com/mut/cycle/service",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.cycle 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CycleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/mutcycle/cycle/src/main/resources/templates/mypage&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\mutcycle\cycle\src\main\resources\templates\mypage" />
+      <recent name="E:\project\mutcycle\cycle\src\main\resources\templates\usedgoods" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle\service" />
       <recent name="E:\project\mutcycle\cycle\src\main\resources" />
       <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle\util" />
-      <recent name="E:\project\mutcycle\cycle\src\main\java\com\mut\cycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\mutcycle\cycle\src\main\resources\static" />
+      <recent name="E:\project\mutcycle\cycle\src\main\resources\static\img" />
       <recent name="E:\project\mutcycle\cycle\src\main\resources\templates" />
       <recent name="E:\project\mutcycle" />
       <recent name="E:\project\mutcycle\cycle" />
@@ -159,7 +183,21 @@
       <workItem from="1721034003185" duration="52000" />
       <workItem from="1721097202667" duration="579000" />
       <workItem from="1721125010410" duration="4205000" />
-      <workItem from="1721458468644" duration="2408000" />
+      <workItem from="1721458468644" duration="3474000" />
+      <workItem from="1721507212013" duration="42000" />
+      <workItem from="1721508085301" duration="95000" />
+      <workItem from="1721528010314" duration="145000" />
+      <workItem from="1721528684543" duration="163000" />
+      <workItem from="1721606800326" duration="763000" />
+      <workItem from="1721630299400" duration="1538000" />
+      <workItem from="1721700736225" duration="4962000" />
+      <workItem from="1721719401484" duration="1152000" />
+      <workItem from="1722234652733" duration="24000" />
+      <workItem from="1722296598964" duration="94000" />
+      <workItem from="1722311766495" duration="7000" />
+      <workItem from="1722312334990" duration="30000" />
+      <workItem from="1722325808445" duration="529000" />
+      <workItem from="1722328507047" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="add : initial setup">
       <option name="closed" value="true" />
@@ -193,7 +231,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721458882199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add : controller mapping and empty html">
+      <option name="closed" value="true" />
+      <created>1721461244533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721461244533</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add : controller mapping and empty html">
+      <option name="closed" value="true" />
+      <created>1721528146643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721528146645</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +258,7 @@
     <MESSAGE value="add : db setup" />
     <MESSAGE value="edit : gitignore" />
     <MESSAGE value="add : empty controller&amp;service&amp;html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : empty controller&amp;service&amp;html" />
+    <MESSAGE value="add : controller mapping and empty html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : controller mapping and empty html" />
   </component>
 </project>
