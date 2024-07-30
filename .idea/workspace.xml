@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : empty controller&amp;service&amp;html">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ccf3248-c0ff-4524-97f2-4bbedd19df79.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2024-07-16__4_42__________.xml" afterDir="false" />
+    <list default="true" id="d477e7d5-2fb4-4611-872c-b7fb2311c01c" name="변경" comment="add : cart">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-07-16_오후_4_42,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/java/com/mut/cycle/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/cycle/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +90,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CycleApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -113,7 +101,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -173,6 +161,7 @@
       <workItem from="1721097202667" duration="579000" />
       <workItem from="1721125010410" duration="4205000" />
       <workItem from="1721458468644" duration="2408000" />
+      <workItem from="1722343091816" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="add : initial setup">
       <option name="closed" value="true" />
@@ -206,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721458882199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add : cart">
+      <created>1722343021176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722343021176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +213,7 @@
     <MESSAGE value="add : db setup" />
     <MESSAGE value="edit : gitignore" />
     <MESSAGE value="add : empty controller&amp;service&amp;html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : empty controller&amp;service&amp;html" />
+    <MESSAGE value="add : cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add : cart" />
   </component>
 </project>
