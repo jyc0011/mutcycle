@@ -1,0 +1,97 @@
+@import url('global.css');
+
+body {
+    font-family:'Titillium Web', 'M PLUS 1','Noto Sans HK','Noto Sans SC','Noto Sans TY','Nanum Gothic', serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    padding: 20px 0;
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.logo-link img {
+    max-height: 100px;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: var(--light-green);
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.nav,
+.nav-pills {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav li,
+.nav-pills li {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.nav-pills {
+    width: 500px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav a,
+.nav-pills a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.nav a:hover,
+.nav-pills a:hover {
+    text-decoration: underline;
+}
+
+.authentication-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.general-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.authentication-links li a, .general-menu li a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.authentication-links li a:hover, .general-menu li a:hover {
+    color: var(--white);
+    background-color: var(--heavy-green);
+}

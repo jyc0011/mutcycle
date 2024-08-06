@@ -1,0 +1,127 @@
+.footer {
+    font-family:'Noto Sans HK','Noto Sans SC','Noto Sans TY','Nanum Gothic', serif !important;
+    width: 100%;
+    height: auto;
+}
+
+.line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #F8F8F8;
+    margin: 0;
+}
+
+.line2 {
+    margin-top: 20px; /* Adjust margin instead of using absolute positioning */
+}
+
+.line3 {
+    margin-top: 40px; /* Adjust margin instead of using absolute positioning */
+}
+
+.frame-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.frame-13 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 16px;
+    width: auto;
+    height: auto;
+}
+
+.text {
+    font-family: 'Baloo Bhaina', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem; /* Use rem for font size */
+    line-height: 1.4;
+    letter-spacing: -0.025em;
+    color: #000;
+}
+
+.rectangle {
+    width: 2px;
+    height: 12px;
+    background: rgba(219, 219, 219, 0.733);
+}
+
+.frame-14 {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Adjusted width */
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.customer-service {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info .text {
+    margin: 5px 0;
+}
+
+.frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.frame-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.frame-15 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+}
+
+.frame-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.vector {
+    width: 100%;
+    border: 1px solid #303030;
+}
+
+.frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 5px;
+    margin-top: 20px;
+    width: 100%;
+}

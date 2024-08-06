@@ -1,0 +1,902 @@
+/*!* 회원가입 *!*/
+
+/*position: relative;*/
+/*width: 1920px;*/
+/*height: 1300px;*/
+
+/*background: #FFFFFF;*/
+
+
+/* Frame 1 */
+.register_page{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 661px;
+
+    justify-content: center;
+
+    border: 1px solid #000000;
+    border-radius: 8px;
+
+    align-items: center;
+}
+
+
+
+/* Frame 149 */
+.customer-register{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 381px;
+    height: 599px;
+
+    top: 32px;
+}
+
+
+
+
+/* Frame 150 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 381px;
+height: 599px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 60 */
+.register_list{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    /*width: 381px;*/
+    height: 501px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+/* 회원가입 */
+h2{
+    /*width: 118px;*/
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 381px;
+height: 447px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 52 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 381px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 12 */
+
+width: 380px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 51 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 380px;
+height: 62px;
+left: 0px;
+top: 0px;
+
+
+
+/* 이름 * */
+
+width: 380px;
+height: 15px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 380px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 이름 입력 */
+
+position: absolute;
+width: 60px;
+height: 18px;
+left: 12px;
+top: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Frame 51 */
+
+width: 381px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 연락처 * */
+
+position: absolute;
+width: 380px;
+height: 15px;
+left: 0px;
+top: 0px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 29px;
+
+position: absolute;
+width: 379px;
+height: 40px;
+left: 0px;
+top: 22px;
+
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 107px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 107px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 107px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Line 24 */
+
+position: absolute;
+width: 25px;
+height: 0px;
+left: 108.99px;
+top: 43.5px;
+
+border: 1px solid #000000;
+
+
+/* Line 25 */
+
+position: absolute;
+width: 25px;
+height: 0px;
+left: 245px;
+top: 42px;
+
+border: 1px solid #000000;
+
+
+/* Frame 53 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 381px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 12 */
+
+width: 380px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 51 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 380px;
+height: 62px;
+left: 0px;
+top: 0px;
+
+
+
+/* 이메일 * */
+
+width: 380px;
+height: 15px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 380px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 이메일 입력 */
+
+position: absolute;
+width: 74px;
+height: 18px;
+left: 12px;
+top: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Group 9 */
+
+width: 380px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 380px;
+height: 62px;
+left: 0px;
+top: 231px;
+
+
+
+/* 아이디 * */
+
+width: 380px;
+height: 15px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ID */
+
+box-sizing: border-box;
+
+width: 380px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 아이디 입력 */
+
+position: absolute;
+width: 74px;
+height: 18px;
+left: 12px;
+top: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Frame 47 */
+
+position: absolute;
+width: 94px;
+height: 31px;
+left: 280px;
+top: calc(50% - 31px/2 + 0.5px);
+
+background: rgba(190, 223, 30, 0.3);
+border-radius: 8px;
+
+
+/* 중복 확인 */
+
+position: absolute;
+width: 71px;
+height: 25px;
+left: calc(50% - 71px/2 + 0.5px);
+top: calc(50% - 25px/2);
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Group 10 */
+
+width: 380px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 380px;
+height: 62px;
+left: 0px;
+top: 308px;
+
+
+
+/* 비밀번호 * */
+
+width: 380px;
+height: 15px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 380px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 비밀번호 입력(문자, 숫자, 특수문자 포함 8~20자) */
+
+position: absolute;
+width: 313px;
+height: 18px;
+left: 12px;
+top: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Group 11 */
+
+width: 380px;
+height: 62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Frame 50 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 380px;
+height: 62px;
+left: 0px;
+top: 385px;
+
+
+
+/* 비밀번호 확인 * */
+
+width: 380px;
+height: 15px;
+
+font-family: 'NanumGothicCoding';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: 0.16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* PW */
+
+box-sizing: border-box;
+
+width: 380px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 비밀번호 입력(문자, 숫자, 특수문자 포함 8~20자) */
+
+position: absolute;
+width: 313px;
+height: 18px;
+left: 12px;
+top: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Frame 147 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 0px;
+gap: 10px;
+
+width: 312px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 14px;
+
+width: 312px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 148 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 312px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 7 */
+
+box-sizing: border-box;
+
+width: 19px;
+height: 19px;
+
+border: 1px solid rgba(0, 0, 0, 0.4);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 개인 정보 수집 및 이용에 동의합니다. */
+
+width: 279px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 로그인 하기 */
+
+width: 381px;
+height: 40px;
+
+background: #4D5902;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 회원가입 */
+
+position: absolute;
+width: 74px;
+height: 24px;
+left: calc(50% - 74px/2 + 0.5px);
+top: calc(50% - 24px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
