@@ -8,6 +8,11 @@
 }
 
 
+.all{
+    margin-top: 400px;
+    margin-bottom: 800px;
+}
+
 /* Frame 1 */
 .total_bar{
     box-sizing: border-box;
