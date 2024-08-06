@@ -16,4 +16,7 @@ public class MainController {
     @GetMapping("/member")
     public String member() { return "home/member";}
 
+    @GetMapping("/term")
+    public String term() { return "home/term";}
+
 }
