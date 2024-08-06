@@ -362,263 +362,263 @@
 
 /* Line 22 */
 
-position: absolute;
-width: 24px;
-height: 0px;
-left: 340px;
-top: 333px;
+/*position: absolute;*/
+/*width: 24px;*/
+/*height: 0px;*/
+/*left: 340px;*/
+/*top: 333px;*/
 
-border: 2px solid rgba(0, 0, 0, 0.3);
-transform: rotate(90deg);
+/*border: 2px solid rgba(0, 0, 0, 0.3);*/
+/*transform: rotate(90deg);*/
 
 
 
 
 
 
-/* logo */
+/*!* logo *!*/
 
-position: absolute;
-width: 696px;
-height: 147px;
-left: calc(50% - 696px/2);
-top: 36px;
+/*position: absolute;*/
+/*width: 696px;*/
+/*height: 147px;*/
+/*left: calc(50% - 696px/2);*/
+/*top: 36px;*/
 
 
 
-/* logo */
+/*!* logo *!*/
 
-position: absolute;
-width: 305.68px;
-height: 140px;
-left: calc(50% - 305.68px/2 - 0.16px);
-top: calc(50% - 140px/2 + 0.5px);
+/*position: absolute;*/
+/*width: 305.68px;*/
+/*height: 140px;*/
+/*left: calc(50% - 305.68px/2 - 0.16px);*/
+/*top: calc(50% - 140px/2 + 0.5px);*/
 
-background: url(image-removebg-preview);
+/*background: url(image-removebg-preview);*/
 
 
-/* Frame 43 */
+/*!* Frame 43 *!*/
 
-position: absolute;
-width: 404px;
-height: 65px;
-left: 1444px;
-top: 134px;
+/*position: absolute;*/
+/*width: 404px;*/
+/*height: 65px;*/
+/*left: 1444px;*/
+/*top: 134px;*/
 
-background: rgba(217, 217, 217, 0.2);
-border-radius: 30px;
+/*background: rgba(217, 217, 217, 0.2);*/
+/*border-radius: 30px;*/
 
 
-/* image 4 */
+/*!* image 4 *!*/
 
-position: absolute;
-width: 35px;
-height: 35px;
-left: 328px;
-top: calc(50% - 35px/2);
+/*position: absolute;*/
+/*width: 35px;*/
+/*height: 35px;*/
+/*left: 328px;*/
+/*top: calc(50% - 35px/2);*/
 
-background: url(image.png);
+/*background: url(image.png);*/
 
 
-/* Menu */
+/*!* Menu *!*/
 
-position: absolute;
-width: 1920px;
-height: 60px;
-left: calc(50% - 1920px/2);
-top: 230px;
+/*position: absolute;*/
+/*width: 1920px;*/
+/*height: 60px;*/
+/*left: calc(50% - 1920px/2);*/
+/*top: 230px;*/
 
-background: rgba(190, 223, 30, 0.3);
+/*background: rgba(190, 223, 30, 0.3);*/
 
 
-/* Frame 42 */
+/*!* Frame 42 *!*/
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 40px;
-gap: 180px;
+/*!* Auto layout *!*/
+/*display: flex;*/
+/*flex-direction: row;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*padding: 0px 40px;*/
+/*gap: 180px;*/
 
-position: absolute;
-width: 1650px;
-height: 31px;
-left: calc(50% - 1650px/2);
-top: calc(50% - 31px/2);
+/*position: absolute;*/
+/*width: 1650px;*/
+/*height: 31px;*/
+/*left: calc(50% - 1650px/2);*/
+/*top: calc(50% - 31px/2);*/
 
 
 
-/* About */
+/*!* About *!*/
 
-width: 55px;
-height: 31px;
+/*width: 55px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 0;*/
+/*flex-grow: 0;*/
 
 
-/* Member */
+/*!* Member *!*/
 
-width: 78px;
-height: 31px;
+/*width: 78px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 1;*/
+/*flex-grow: 0;*/
 
 
-/* Used trade */
+/*!* Used trade *!*/
 
-width: 100px;
-height: 31px;
+/*width: 100px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 2;*/
+/*flex-grow: 0;*/
 
 
-/* Used trade */
+/*!* Used trade *!*/
 
-width: 55px;
-height: 31px;
+/*width: 55px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 3;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 3;*/
+/*flex-grow: 0;*/
 
 
-/* My cart */
+/*!* My cart *!*/
 
-width: 74px;
-height: 31px;
+/*width: 74px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 4;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 4;*/
+/*flex-grow: 0;*/
 
 
-/* My page */
+/*!* My page *!*/
 
-width: 50px;
-height: 31px;
+/*width: 50px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 5;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 5;*/
+/*flex-grow: 0;*/
 
 
-/* My Page */
+/*!* My Page *!*/
 
-width: 78px;
-height: 31px;
+/*width: 78px;*/
+/*height: 31px;*/
 
-font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 140%;
-/* identical to box height, or 31px */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.025em;
+/*font-family: 'Noto Sans';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 22px;*/
+/*line-height: 140%;*/
+/*!* identical to box height, or 31px *!*/
+/*display: flex;*/
+/*align-items: center;*/
+/*text-align: center;*/
+/*letter-spacing: -0.025em;*/
 
-color: #000000;
+/*color: #000000;*/
 
 
-/* Inside auto layout */
-flex: none;
-order: 6;
-flex-grow: 0;
+/*!* Inside auto layout *!*/
+/*flex: none;*/
+/*order: 6;*/
+/*flex-grow: 0;*/
