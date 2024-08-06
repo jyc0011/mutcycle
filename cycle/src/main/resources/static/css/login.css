@@ -56,6 +56,25 @@
     color: #000000;
 }
 
+h2{
+    width: 148px;
+    height: 30px;
+    left: 226px;
+    top: 54px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+}
 
 /* Frame 2 */
 .login_bar{
@@ -66,47 +85,57 @@
     top: calc(50% - 420px/2);
 
     border-radius: 0px 8px 8px 0px;
-
 }
 
 
 /* PW */
-.password_bar{
-    box-sizing: border-box;
 
-    position: absolute;
-    width: 380px;
-    height: 40px;
-    left: 110px;
-    top: 162px;
-
-    border: 1px solid #000000;
-    border-radius: 8px;
-}
 
 /* Password */
-.enter_pw{
-    position: absolute;
-    width: 99px;
-    height: 22px;
-    left: 0px;
-    top: calc(50% - 22px/2);
+/*#password-form>input::placeholder{*/
+/*    position: absolute;*/
+/*    width: 99px;*/
+/*    height: 22px;*/
+/*    left: 0px;*/
+/*    top: calc(50% - 22px/2);*/
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    justify-items: center;
-    align-items: center;
-    padding-left: 10px;
+/*    font-family: 'Inter';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    !* identical to box height *!*/
+/*    justify-items: center;*/
+/*    align-items: center;*/
+/*    padding-left: 10px;*/
 
-    color: #d9d9d9;
-}
+/*    color: #d9d9d9;*/
 
 
-.id_bar{
+/*}*/
+
+
+/*#login-form{*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*    width: 380px;*/
+/*    height: 48px;*/
+/*    padding: 0 10px;*/
+/*    left: 110px;*/
+/*    top: 112px;*/
+
+/*    border: 1px solid #000000;*/
+/*    border-radius: 8px;*/
+
+/*    color: #000000;*/
+
+
+/*    margin-bottom: 16px;*/
+/*    background-color: #F8F8F8;*/
+
+/*}*/
+
+#ID{
     box-sizing: border-box;
 
     position: absolute;
@@ -117,26 +146,96 @@
 
     border: 1px solid #000000;
     border-radius: 8px;
+    padding-left: 10px;
+
 }
 
-/* ID */
-.enter_id{
+#PW{
+    box-sizing: border-box;
+
     position: absolute;
-    width: 33px;
-    height: 22px;
-    left: 0px;
-    top: 9px;
+    width: 380px;
+    height: 40px;
+    left: 110px;
+    top: 162px;
+
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding-left: 10px;
+
+}
+
+label[for="remember-check"]{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    height: 25px;
+    left: 110px;
+    top: 218px;
+}
+
+#login-form > input::placeholder{
+    color: #D2D2D2;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
-    padding-left: 10px;
-    /* identical to box height */
-
-    color: #d9d9d9;
-
 }
+
+
+
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    /*background-image: url("checkbox.png");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label{
+    /*background-image: url("checkbox-active.png");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ID */
+/*.enter_id{*/
+/*    width: 33px;*/
+/*    height: 22px;*/
+/*    left: 0px;*/
+/*    top: 9px;*/
+/*    justify-items: center;*/
+/*    align-items: center;*/
+
+
+/*}*/
+
+/*#login-form>input{*/
+/*    box-sizing: border-box;*/
+/*    */
+/*    width: 380px;*/
+/*    height: 40px;*/
+/*    left: 110px;*/
+/*    top: 112px;*/
+
+/*    border: 1px solid #000000;*/
+/*    border-radius: 8px;*/
+/*    */
+/*    */
+/*    align-content: center;*/
+/*    font-family: 'Inter';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 18px;*/
+/*    !*line-height: 22px;*!*/
+/*    padding-left: 10px;*/
+/*    !* identical to box height *!*/
+
+/*    color: #000000;*/
+/*}*/
 
 /* 로그인 하기 */
 .login_button{
@@ -169,7 +268,7 @@
     text-align: center;
 
     color: #FFFFFF;
-
+    text-decoration: none;
 
 }
 
@@ -213,6 +312,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+
 }
 
 
@@ -234,6 +334,7 @@
     text-align: center;
 
     color: #000000;
+    text-decoration: none;
 }
 
 
@@ -273,95 +374,96 @@
     text-align: center;
 
     color: #000000;
+    text-decoration: none;
 }
 
 
 
 
 /* Frame 41 */
-.auto_log{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
+/*.auto_log{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    padding: 0px;*/
+/*    gap: 8px;*/
 
-    position: absolute;
-    width: 109px;
-    height: 25px;
-    left: 110px;
-    top: 218px;
-}
+/*    position: absolute;*/
+/*    width: 109px;*/
+/*    height: 25px;*/
+/*    left: 110px;*/
+/*    top: 218px;*/
+/*}*/
 
-/* Frame 2 */
-.auto_frame{
-    box-sizing: border-box;
+/*!* Frame 2 *!*/
+/*.auto_frame{*/
+/*    box-sizing: border-box;*/
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px;
-    gap: 10px;
-    isolation: isolate;
+/*    !* Auto layout *!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-start;*/
+/*    padding: 9px;*/
+/*    gap: 10px;*/
+/*    isolation: isolate;*/
 
-    width: 25px;
-    height: 25px;
+/*    width: 25px;*/
+/*    height: 25px;*/
 
-    background: #FFFFFF;
-    border: 1px solid rgba(102, 119, 102, 0.4);
-    border-radius: 100px;
+/*    background: #FFFFFF;*/
+/*    border: 1px solid rgba(102, 119, 102, 0.4);*/
+/*    border-radius: 100px;*/
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+/*    !* Inside auto layout *!*/
+/*    flex: none;*/
+/*    order: 0;*/
+/*    flex-grow: 0;*/
+/*}*/
 
 
 
 /* Rectangle 33 */
-.rectangle2{
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: calc(50% - 15px/2);
-    top: calc(50% - 15px/2);
+/*.rectangle2{*/
+/*    position: absolute;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    left: calc(50% - 15px/2);*/
+/*    top: calc(50% - 15px/2);*/
 
-    background: #FFFFFF;
-    border-radius: 30px;
+/*    background: #FFFFFF;*/
+/*    border-radius: 30px;*/
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
-}
+/*    !* Inside auto layout *!*/
+/*    flex: none;*/
+/*    order: 0;*/
+/*    flex-grow: 0;*/
+/*    z-index: 0;*/
+/*}*/
 
 
 
 /* 자동로그인 */
-.auto_login{
-    width: 90px;
-    height: 15px;
+/*.auto_login{*/
+/*    width: 90px;*/
+/*    height: 15px;*/
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 15px;
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.16px;
+/*    font-family: 'Inter';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 15px;*/
+/*    line-height: 15px;*/
+/*    !* identical to box height *!*/
+/*    text-align: center;*/
+/*    letter-spacing: 0.16px;*/
 
-    color: #000000;
+/*    color: #000000;*/
 
 
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+/*    !* Inside auto layout *!*/
+/*    flex: none;*/
+/*    order: 1;*/
+/*    flex-grow: 0;*/
+/*}*/
 
 
 
